@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="../Css/style.css">
+	<script type="text/javascript" src="../js/script.js"></script>	
+
+		
+</head>
+<body>
+	<div id="container">
+	<header>
+		<input type="button" value="Home" onclick="history.back(-1)" />
+		<!-- <span><a href="../index.html">Home</a></span> -->
+		<!-- <span onclick="history.back(-1)">Home</span> -->
+	<h1>Myanmar E-book Hub</h1>
+	<div id="animate">&raquo;&raquo;&raquo;Do reading for our heart(ae lae)&laquo;&laquo;&laquo;</div>
+	</header>
+	</div>
+	
+	<form action="" method="Get">
+		<table align="center">
+			<tr>
+				<th colspan="2">Feedback Form</th>
+			</tr>
+			<tr>
+				<td><label>Name:</label></td>
+				<td><input type="text" required minlength="3" maxlength="15" autocomplete="off" name="name"></td>
+			</tr>
+			<tr>
+				<td><label>Email:</label></td>
+				<td><input type="email"></td>
+			</tr>
+			<tr>
+				<td>Subject:</td>
+				<td><textarea rows="4" cols="23" name="subject"></textarea></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td><input type="submit" name="send" value="Send" onclick="thank()"></td></tr>
+		
+		</table>		
+	</form>
+</body>
+</html>

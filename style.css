@@ -1,0 +1,216 @@
+body{
+	background-color: gray;
+}
+#container{
+	width: 100%;
+	}
+/*for font*/
+/*@font-face{
+	font-family: myfont;
+	src:url(font/a.ttf);
+}*/
+h1{
+	text-align: center;
+		color: #0ffde7;
+		/*font-family:myfont,serif;*/
+		text-shadow: 5px -5px 5px #000,5px -5px 5px #000;
+}
+
+/*for heading box*/
+header{
+	height: 210px;
+	background-color: #172f40;
+}
+/*for animation*/
+#animate{
+	height: 50px;
+	width: 600px;
+	font-size: 1.3em;
+	position: relative;
+	animation: Tfunction 6s infinite alternate linear;
+	color: #777143;
+	}
+
+@keyframes Tfunction{
+	from{left: 420px;}
+	to{left: 600px;}
+	}
+/*for search bar*/
+.search_bar{
+	text-align: right;
+}
+
+/*for menu_bar*/
+.menu,.catagory,.contact,.writer{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	margin-top: 1px;
+
+}
+.menu li{
+		background:#6c36c145;
+		width: 210px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		}
+.menu li a{
+			display: block;
+			text-decoration: none;
+			color: indigo;
+			font-weight: bolder;
+		}
+	.menu li a:hover{
+		background-color: #8a576f;
+	}
+	.menu>li{
+			border-right: 1px solid silver;
+			float: left;
+		}
+		.catagory,.contact,.writer{
+			display: none;
+			
+		}
+		.menu>li:hover .catagory,.menu>li:hover .contact,.menu>li:hover .writer{
+			display: block;
+
+		}
+		.catagory li,.contact li,.writer li{
+			border-top:1px solid #ccc;
+		}
+.dropdown{
+	position: relative;
+	z-index: 2;
+}
+
+/*for section*/
+section{
+	clear: both;
+	position: relative;
+	z-index: 1;
+}
+
+
+h3{
+	margin-top: 120px;
+	text-decoration: underline;
+
+}
+#first{
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6{
+	height: 200px;
+	margin-top: 10px;
+		
+}
+.div1 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter1 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div2 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter2 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div3 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter3 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div4 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter4 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div5 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter5 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div6 img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	margin-right: 70px;
+	transition: width 1s,height 1s;
+}
+.letter6 div{
+	float: left;
+	width: 180px;
+	height: 10px;
+	margin-right: 70px;
+
+}
+.div1 img:hover,.div2 img:hover,.div3 img:hover,.div4 img:hover,.div5 img:hover,.div6 img:hover{
+	width: 200px;
+	height: 200px;
+}
+.bold{
+	/*font-weight: bolder;*/
+	color: #092067;
+}
+/*for footer*/
+#foot{
+	font-family: serif;
+	height:30px;
+	margin-top: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+.name{
+	color: lightgray;
+	font-style: italic;
+}
+
